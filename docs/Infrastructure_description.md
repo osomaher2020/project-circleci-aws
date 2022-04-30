@@ -7,7 +7,7 @@
 
    ![elasticbeanstalk_list](./imgs/eb-list.png)
    ![elasticbeanstalk_health](./imgs/eb-health.png)
-   ![elasticbeanstalk_env](./imgs/eb-env.png)
+   ![elasticbeanstalk_env](./imgs/eb_env.png)
 
 3. S3 bucket which is **public** `elasticbeanstalk-us-east-1-689998734941` hosting the front end UI files
 
@@ -18,4 +18,4 @@
 
 ---
 
-## Architecture diagram in: [Diagram](architecture_diagram.md)
+## Architecture diagram: [Diagram](architecture_diagram.md)

@@ -7,7 +7,7 @@ http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.co
 - SHOW user **(GET)**: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/:email```
 
 
-  >ex: http://Osoapp-env-1.eba-adkfn8fw.us-east-1.elasticbeanstalk.com/api/v0/users/osomaher1@gmail.com
+  >ex: http://Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/osomaher1@gmail.com
 
 - CREATE user **(POST)**: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/auth```
 
@@ -26,9 +26,9 @@ http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.co
 ---
 
 # AWS environment
-- AWS RDS URL : [RDS-URL](osomaherdb.c9cgcbjfdejg.us-east-1.rds.amazonaws.com)
-- AWS Elastic Beanstalk URL : [EB-URL](Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com)
-- AWS S3 URL : [s3-bucket](http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.com)
+- AWS RDS: ```osomaherdb.c9cgcbjfdejg.us-east-1.rds.amazonaws.com```
+- AWS Elastic Beanstalk: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com```
+- AWS S3: ```http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.com```
 
 ---
 

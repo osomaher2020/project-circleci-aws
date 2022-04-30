@@ -45,4 +45,4 @@ AWS S3 static website: http://elasticbeanstalk-us-east-1-689998734941.s3-website
 
 # CircleCi Environment variables
 
-![circleci_env](./imgs/circleci-env.png)
+![circleci_env](./imgs/circleci_env.png)
