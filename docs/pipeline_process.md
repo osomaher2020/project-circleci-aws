@@ -1,3 +1,6 @@
+# Pipeline Diagram
+![circleci_process](./imgs/ci_cd_process.png)
+
 # Pipeline Process
 The application is connected to `github` on repository: https://github.com/osomaher2020/project-circleci-aws
 
@@ -18,8 +21,8 @@ Which is used by CircleCI for CI/CD following a deployment steps as:
     - frontend-deploy
     - backend-deploy
 
-![circleci_process](./imgs/circleci-deploy1.png)
-![circleci_process2](./imgs/circleci-deploy2.png)
+![circleci_deploy1](./imgs/circleci-deploy1.png)
+![circleci_deploy2](./imgs/circleci-deploy2.png)
 
 ---
 ## Deploying the Backend API:
@@ -27,6 +30,9 @@ executes the script in `udagram-api/bin/deploy.sh` which contains steps to deplo
 ```
 eb init osomaher-app --platform node.js --region us-east-1
 eb use Osomaherapp-env
+
+eb setenv PORT='3000' DB_PORT='5432' POSTGRES_HOST='osomaherdb.c9cgcbjfdejg.us-east-1.rds.amazonaws.com' POSTGRES_DB='osomaherdb' POSTGRES_USERNAME='osomaher' POSTGRES_PASSWORD='osomaher123' JWT_SECRET='sola123' AWS_REGION='us-east-1' AWS_BUCKET='elasticbeanstalk-us-east-1-689998734941'
+
 eb deploy Osomaherapp-env
 ```
 
@@ -46,3 +52,4 @@ AWS S3 static website: http://elasticbeanstalk-us-east-1-689998734941.s3-website
 # CircleCi Environment variables
 
 ![circleci_env](./imgs/circleci_env.png)
+![circleci_eb_setenv](./imgs/eb-setenv.png)
