@@ -4,19 +4,19 @@ http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.co
 ---
 
 # Project Endpoints
-- SHOW user **(GET)**: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/:email```
+- SHOW user **(GET)**: ```osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/:email```
 
 
-  >ex: http://Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/osomaher1@gmail.com
+  >ex: http://osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/osomaher1@gmail.com
 
-- CREATE user **(POST)**: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/auth```
+- CREATE user **(POST)**: ```osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/auth```
 
     >{
         "email": "new_mail@blabla.com",
         "password": "123"
     }
 
-- LOGIN user **(POST)**: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/auth/login```
+- LOGIN user **(POST)**: ```osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/auth/login```
 
     >{
         "email": "new_mail@blabla.com",
@@ -27,7 +27,7 @@ http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.co
 
 # AWS environment
 - AWS RDS: ```osomaherdb.c9cgcbjfdejg.us-east-1.rds.amazonaws.com```
-- AWS Elastic Beanstalk: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com```
+- AWS Elastic Beanstalk: ```osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com```
 - AWS S3: ```http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.com```
 
 ---
