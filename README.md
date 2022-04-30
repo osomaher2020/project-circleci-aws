@@ -35,7 +35,7 @@ http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.co
 # Environment Variables (api)
 ```
 PORT='3000'
-URL='http://Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/'
+URL='http://osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/'
 
 DB_PORT='5432'
 POSTGRES_HOST='osomaherdb.c9cgcbjfdejg.us-east-1.rds.amazonaws.com'

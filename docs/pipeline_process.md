@@ -30,7 +30,7 @@ eb use Osomaherapp-env
 eb deploy Osomaherapp-env
 ```
 
-AWS EB API: http://Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.comm/api/v0
+AWS EB API: http://osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0
 
 ---
 ## Deploying the Frontend UI:
