@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+
 # Frontend Application
 http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.com
 
