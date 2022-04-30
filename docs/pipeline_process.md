@@ -1,5 +1,5 @@
 # Pipeline Process
-The application is connected to `github` on repository: https://github.com/osomaher2020/deployment-circleci-aws2
+The application is connected to `github` on repository: https://github.com/osomaher2020/project-circleci-aws
 
 Branch: `master`
 
@@ -14,21 +14,23 @@ Which is used by CircleCI for CI/CD following a deployment steps as:
     - backend-install
     - frontend-build
     - backend-build
+    - backend-test
     - frontend-deploy
     - backend-deploy
 
-![circleci_process](./imgs/CircleCi_Steps.png)
+![circleci_process](./imgs/circleci-deploy1.png)
+![circleci_process2](./imgs/circleci-deploy2.png)
 
 ---
 ## Deploying the Backend API:
 executes the script in `udagram-api/bin/deploy.sh` which contains steps to deploy on AWS EB:
 ```
-eb init Osoapp --platform node.js --region us-east-1
-eb use Osoapp-env-1
-eb deploy Osoapp-env-1
+eb init osomaher-app --platform node.js --region us-east-1
+eb use Osomaherapp-env
+eb deploy Osomaherapp-env
 ```
 
-AWS EB API: http://Osoapp-env-1.eba-adkfn8fw.us-east-1.elasticbeanstalk.com/api/v0
+AWS EB API: http://Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.comm/api/v0
 
 ---
 ## Deploying the Frontend UI:
@@ -43,4 +45,4 @@ AWS S3 static website: http://elasticbeanstalk-us-east-1-689998734941.s3-website
 
 # CircleCi Environment variables
 
-![circleci_env](./imgs/CircleCi-ENV.png)
+![circleci_env](./imgs/circleci-env.png)

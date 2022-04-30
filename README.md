@@ -4,19 +4,19 @@ http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.co
 ---
 
 # Project Endpoints
-- SHOW user **(GET)**: ```http://Osoapp-env-1.eba-adkfn8fw.us-east-1.elasticbeanstalk.com/api/v0/users/:email```
+- SHOW user **(GET)**: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/:email```
 
 
   >ex: http://Osoapp-env-1.eba-adkfn8fw.us-east-1.elasticbeanstalk.com/api/v0/users/osomaher1@gmail.com
 
-- CREATE user **(POST)**: ```http://Osoapp-env-1.eba-adkfn8fw.us-east-1.elasticbeanstalk.com/api/v0/users/auth```
+- CREATE user **(POST)**: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/auth```
 
     >{
         "email": "new_mail@blabla.com",
         "password": "123"
     }
 
-- LOGIN user **(POST)**: ```http://Osoapp-env-1.eba-adkfn8fw.us-east-1.elasticbeanstalk.com/api/v0/users/auth/login```
+- LOGIN user **(POST)**: ```Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/api/v0/users/auth/login```
 
     >{
         "email": "new_mail@blabla.com",
@@ -27,8 +27,7 @@ http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.co
 
 # AWS environment
 - AWS RDS URL : [RDS-URL](osomaherdb.c9cgcbjfdejg.us-east-1.rds.amazonaws.com)
-- AWS RDS URL : [RDS-URL](osomaherdb.c9cgcbjfdejg.us-east-1.rds.amazonaws.com)
-- AWS Elastic Beanstalk URL : [EB-URL](Osoapp-env-1.eba-adkfn8fw.us-east-1.elasticbeanstalk.com)
+- AWS Elastic Beanstalk URL : [EB-URL](Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com)
 - AWS S3 URL : [s3-bucket](http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.com)
 
 ---
@@ -36,7 +35,7 @@ http://elasticbeanstalk-us-east-1-689998734941.s3-website-us-east-1.amazonaws.co
 # Environment Variables (api)
 ```
 PORT='3000'
-URL='http://Osoapp-env-1.eba-adkfn8fw.us-east-1.elasticbeanstalk.com/'
+URL='http://Osomaherapp-env.eba-kvfcxsyw.us-east-1.elasticbeanstalk.com/'
 
 DB_PORT='5432'
 POSTGRES_HOST='osomaherdb.c9cgcbjfdejg.us-east-1.rds.amazonaws.com'
